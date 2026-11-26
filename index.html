@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Support</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f6fa; color: #202938; }
+    header { background: #173b67; color: white; padding: 28px max(24px, calc((100% - 1000px)/2)); }
+    header h1 { margin: 0 0 8px; font-size: 30px; }
+    header p { margin: 0; color: #dce8f7; }
+    main { max-width: 1000px; margin: 32px auto; padding: 0 20px; }
+    .intro { background: white; padding: 24px; border-radius: 12px; box-shadow: 0 2px 10px #172b4d12; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 20px; }
+    .card { background: white; padding: 22px; border-radius: 12px; box-shadow: 0 2px 10px #172b4d12; }
+    .card h2 { margin-top: 0; color: #173b67; font-size: 20px; }
+    .card p { line-height: 1.5; color: #526174; }
+    footer { max-width: 1000px; margin: 40px auto 20px; padding: 0 20px; color: #6b778c; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mobile Support</h1>
+    <p>Інформаційна система обліку звернень абонентів мобільного оператора</p>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Головна сторінка</h2>
+      <p>Mobile Support допомагає працівникам контактного центру реєструвати звернення абонентів, переглядати їхні дані та контролювати процес опрацювання.</p>
+    </section>
+    <section class="grid" aria-label="Основні розділи системи">
+      <article class="card">
+        <h2>Звернення</h2>
+        <p>Створення нових звернень, перегляд їхнього змісту та контроль поточного статусу.</p>
+      </article>
+      <article class="card">
+        <h2>Абоненти</h2>
+        <p>Перегляд контактної інформації абонентів і відомостей про обслуговування.</p>
+      </article>
+      <article class="card">
+        <h2>Статистика</h2>
+        <p>Зведена інформація про кількість звернень, категорії та стан їх опрацювання.</p>
+      </article>
+    </section>
+  </main>
+  <footer>Навчальний проєкт Mobile Support</footer>
+</body>
+</html>
